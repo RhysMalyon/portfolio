@@ -48,16 +48,16 @@
 }
 
 .resume-link {
-  border: 2px solid black;
+  border: 2px solid red;
   border-radius: 1rem;
   padding: 0.2rem 1rem;
   text-decoration: none;
-  color: black;
+  color: red;
   font-weight: bold;
   transition: 300ms ease-in-out;
 
   &:hover {
-    background: black;
+    background: red;
     color: white;
     text-decoration: none;
   }

@@ -1,4 +1,60 @@
-<section class="projects">
-  <h2>My Projects</h2>
-  <p>Lovin' and livin' life as a developer in Japan.</p>
-</section>
+<div class="container">
+  <div class="project-heading text-center my-5">
+    <h1>PROJECTS</h1>
+  </div>
+  <div class="row">
+
+    <div class="col-12 col-md-6 mb-5">
+      <div class="h-100">
+        <%= image_tag "safe-spaces.png", class: "web_screenshot" %>
+      </div>
+    </div>
+      <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+        <h2>Safe Spaces</h2>
+        <p><strong>Project Role:</strong> Lead developer</p>
+        <p>A web app designed to provide women with a platform to connect and offer their homes as places of refuge to those who feel unsafe or in need of a place to escape danger quickly. Designed with mobile use in mind, the app has a primary focus on communication and the leveraging of the Mapbox API.</p>
+        <p><span style="font-size: 1.5rem"> <i class="devicon-rails-plain"></i>  <i class="devicon-sass-original"></i>  <i class="devicon-bootstrap-plain"></i>  <i class="devicon-javascript-plain"></i>  <i class="devicon-html5-plain-wordmark"></i>   <i class="devicon-postgresql-plain"></i>  <i class="devicon-heroku-original"></i> </span></p>
+        <div>
+          <%= link_to ("<i class='fas fa-info-circle'></i> Info").html_safe, '/safe-spaces.html', class: 'btn btn-dark mr-1' %>
+          <%= link_to ("<i class='fas fa-globe'></i> Website").html_safe, 'https://www.safespacesjp.com', class: 'btn btn-dark mr-1' %>
+          <%= link_to ("<i class='fab fa-github'></i> Code").html_safe, 'https://github.com/RhysMalyon/safe-spaces', class: 'btn btn-dark' %>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 my-5">
+      <div class="h-100">
+        <%= image_tag "safe-spaces.png", class: "web_screenshot" %>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+      <h2>Fam Finder</h2>
+      <p><strong>Project Role:</strong> Front End Developer</p>
+      <p>A marketplace app developed with a fun approach. The aim of the app is to give users an online platform to find, connect with, and hire people as various family roles for different events. We used this app as an opportunity to use various JavaScript plugins such as Flatpickr and Stimulus.js.</p>
+      <p><span style="font-size: 1.5rem"> <i class="devicon-rails-plain"></i>  <i class="devicon-sass-original"></i>  <i class="devicon-bootstrap-plain"></i>  <i class="devicon-javascript-plain"></i>  <i class="devicon-html5-plain-wordmark"></i>   <i class="devicon-postgresql-plain"></i>  <i class="devicon-heroku-original"></i> </span></p>
+      <div>
+        <%= link_to ("<i class='fas fa-info-circle'></i> Info").html_safe, '/fam-finder.html', class: 'btn btn-dark mr-1' %>
+        <%= link_to ("<i class='fas fa-globe'></i> Website").html_safe, 'http://fam-finder.herokuapp.com/', class: 'btn btn-dark mr-1' %>
+        <%= link_to ("<i class='fab fa-github'></i> Code").html_safe, 'https://github.com/RhysMalyon/fake-fam', class: 'btn btn-dark' %>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 my-5">
+      <div class="h-100">
+        <%= image_tag "footy-friend.png", class: "web_screenshot" %>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+      <h2>Footy Friend</h2>
+      <p><strong>Project Role:</strong> Full-Stack Developer (Personal Project)</p>
+      <p>A side project based on personal interests. A full-stack web application that lets users create football leagues, teams, clubs, and stadiums. This was my first solo development project from scratch and proved to be an invaluable learning experience for the integration of authorization using the Rails pundit gem.</p>
+      <p><span style="font-size: 1.5rem"> <i class="devicon-rails-plain"></i>  <i class="devicon-sass-original"></i>  <i class="devicon-bootstrap-plain"></i>  <i class="devicon-javascript-plain"></i>  <i class="devicon-html5-plain-wordmark"></i>   <i class="devicon-postgresql-plain"></i>  <i class="devicon-heroku-original"></i> </span></p>
+      <div>
+        <%= link_to ("<i class='fas fa-info-circle'></i> Info").html_safe, '/footy-friend.html', class: 'btn btn-dark mr-1' %>
+        <%= link_to ("<i class='fas fa-globe'></i> Website").html_safe, 'https://footy-friend-lw.herokuapp.com/', class: 'btn btn-dark mr-1' %>
+        <%= link_to ("<i class='fab fa-github'></i> Code").html_safe, 'https://github.com/RhysMalyon/footy-friend', class: 'btn btn-dark' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+

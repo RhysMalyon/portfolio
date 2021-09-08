@@ -20,15 +20,16 @@ header {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	z-index: 1000;
 }
 
 header.sticky{
 	height: 80px;
+	z-index: 1000;
 }
 
 header .logo{
 	position: absolute;
-	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	font-size: 7vw;
@@ -37,6 +38,10 @@ header .logo{
 	transition: 1s;
 	font-weight: 700;
 	text-decoration: none;
+
+	&:hover {
+		color: red;
+	}
 }
 
 header.sticky .logo{
@@ -44,12 +49,17 @@ header.sticky .logo{
 	font-size: 2em;
 	left: 100px;
 	transform: translate(0,-50%);
+	top: 50%;
+
+	&:hover {
+		color: red;
+	}
 }
 
 header .nav-cta {
   display: flex;
   position: absolute;
-	top: 65%;
+	top: 50%;
 	left: 50%;
 	transform: translateX(-50%);
   z-index: inherit;
@@ -64,6 +74,10 @@ header .nav-link {
 	text-decoration: none;
   border-left: 2px solid white;
   margin: 1rem;
+
+	&:hover {
+		color: red;
+	}
 }
 
 header img.banner{
