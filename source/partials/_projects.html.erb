@@ -1,4 +1,43 @@
-<section class="projects">
-  <h2>My Projects</h2>
-  <p>Lovin' and livin' life as a developer in Japan.</p>
-</section>
+<div class="container">
+  <div class="project-heading text-center my-5">
+    <h1>PROJECTS</h1>
+  </div>
+  <div class="row">
+
+    <div class="col-12 col-md-6">
+      <div class="h-100">
+        <%= image_tag "safe-spaces.png", class: "web_screenshot" %>
+      </div>
+    </div>
+      <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+        <h2>Safe Spaces</h2>
+        <p><strong>Project Role:</strong> Lead developer</p>
+        <p>A web app designed to provide women with a platform to connect and offer their homes as places of refuge to those who feel unsafe or in need of a place to escape danger quickly. Designed with mobile use in mind, the app has a primary focus on communication and the leveraging of the Mapbox API.</p>
+        <p><span style="font-size: 1.5rem"> <i class="devicon-rails-plain"></i>  <i class="devicon-sass-original"></i>  <i class="devicon-bootstrap-plain"></i>  <i class="devicon-javascript-plain"></i>  <i class="devicon-html5-plain-wordmark"></i>   <i class="devicon-postgresql-plain"></i>  <i class="devicon-heroku-original"></i> </span></p>
+        <div>
+          <%= link_to ("<i class='fas fa-info-circle'></i> More Info").html_safe, '/safe-spaces.html', class: 'btn btn-dark mr-1' %>
+          <%= link_to ("<i class='fas fa-globe'></i> Visit project").html_safe, 'https://www.safespacesjp.com', class: 'btn btn-dark mr-1' %>
+          <%= link_to ("<i class='fab fa-github'></i> View repository").html_safe, 'https://github.com/RhysMalyon/safe-spaces', class: 'btn btn-dark' %>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <div class="h-100">
+        <%= image_tag "safe-spaces.png", class: "web_screenshot" %>
+      </div>
+    </div>
+      <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+        <h2>Fam Finder</h2>
+        <p><strong>Project Role:</strong> Front End Developer</p>
+        <p>A marketplace app developed with a fun approach. The aim of the app is to give users an online platform to find, connect with, and hire people as various family roles for different events. </p>
+        <p><span style="font-size: 1.5rem"> <i class="devicon-rails-plain"></i>  <i class="devicon-sass-original"></i>  <i class="devicon-bootstrap-plain"></i>  <i class="devicon-javascript-plain"></i>  <i class="devicon-html5-plain-wordmark"></i>   <i class="devicon-postgresql-plain"></i>  <i class="devicon-heroku-original"></i> </span></p>
+        <div>
+          <%= link_to ("<i class='fas fa-info-circle'></i> More Info").html_safe, '/safe-spaces.html', class: 'btn btn-dark mr-1' %>
+          <%= link_to ("<i class='fas fa-globe'></i> Visit project").html_safe, 'https://www.safespacesjp.com', class: 'btn btn-dark mr-1' %>
+          <%= link_to ("<i class='fab fa-github'></i> View repository").html_safe, 'https://github.com/RhysMalyon/safe-spaces', class: 'btn btn-dark' %>
+        </div>
+    </div>
+  </div>
+</div>
+
+
