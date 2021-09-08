@@ -1,9 +1,10 @@
-header {
-  height: 100vh;
+.about {
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 28vh;
 }
 
 .inner-wrapper {
@@ -17,19 +18,18 @@ a {
 }
 
 /**********************/
-/*   MAX WIDTH 900PX  */
+/*   MAX WIDTH 990PX  */
 /**********************/
 @media (max-width: 990px) {
-  header {
+  .about {
     display: block;
     padding: 80px 0;
-    height: auto;
   }
-  header .heroDescription {
+  .about .heroDescription {
     text-align: center;
     margin-top: 50px;
   }
-  header .heroDescription .socialsResume {
+  .about .heroDescription .socialsResume {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -46,23 +46,32 @@ a {
   .innerWrapper {
     padding: 0 15px;
   }
-  header .heroImageContainer img {
+  .about .heroImageContainer img {
     width: 250px;
     height: 250px;
   }
 }
 
 /**********************/
+/*   MAX WIDTH 440PX  */
+/**********************/
+@media (max-width: 440px) {
+  .about	{
+		margin-top: 22vh;
+	}
+}
+
+/**********************/
 /*   MAX WIDTH 400PX  */
 /**********************/
 @media (max-width: 400px) {
-  header {
+  .about {
     padding: 40px 0;
   }
-  header .heroDescription .socialsResume {
+  .about .heroDescription .socialsResume {
     display: block;
   }
-  header .heroImageContainer img {
+  .about .heroImageContainer img {
     box-shadow: 12px 0 #d9c8f1;
   }
   .socials-list {
@@ -70,4 +79,13 @@ a {
     margin-left: 0;
     margin-top: 30px;
   }
+}
+
+/**********************/
+/*   MAX WIDTH 376PX  */
+/**********************/
+@media (max-width: 376px) {
+  .about	{
+		margin-top: 25vh;
+	}
 }
