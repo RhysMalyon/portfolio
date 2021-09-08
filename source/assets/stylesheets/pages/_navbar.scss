@@ -120,7 +120,6 @@ nav ul li a:hover {
 }
 
 section {
-	margin-top: 28vh;
 	padding: 100px;
 	box-sizing: border-box;
 }
@@ -233,5 +232,18 @@ section p {
 	    background-size: 25px;
 	    background-repeat: no-repeat;
 	    background-position: center;
+	}
+}
+
+@media (max-width: 440px) {
+  section p	{
+    font-size: 1.1em;
+	}
+}
+
+@media (max-width: 376px) {
+  section p	{
+    font-size: 1em;
+    margin-bottom: 0;
 	}
 }
