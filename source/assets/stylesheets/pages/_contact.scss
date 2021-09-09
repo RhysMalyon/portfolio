@@ -1,0 +1,29 @@
+.contact-cta {
+  font-size: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  // max-width: 30rem;
+
+  p {
+    margin: 0;
+  }
+
+  input {
+    height: 3rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .contact-cta {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 990px) {
+  form {
+    width: 15rem;
+  }
+}
