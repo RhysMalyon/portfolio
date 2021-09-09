@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
 .section-heading {
   background: red;
 
   h1 {
     color: white;
+  }
+}
+
+.project-container {
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
@@ -35,6 +47,12 @@
   .divider {
     margin-top: 3rem;
     margin-bottom: 3rem;
+  }
+
+  .project-container {
+    p {
+      font: 1rem;
+    }
   }
 }
 
