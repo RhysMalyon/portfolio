@@ -41,7 +41,7 @@ header .logo{
 	text-decoration: none;
 
 	&:hover {
-		color: red;
+		color: #a40000;
 	}
 }
 
@@ -53,7 +53,7 @@ header.sticky .logo{
 	top: 50%;
 
 	&:hover {
-		color: red;
+		color: #a40000;
 	}
 }
 
@@ -77,7 +77,7 @@ header .nav-link {
   margin: 1rem;
 
 	&:hover {
-		color: red;
+		color: #a40000;
 	}
 }
 
@@ -131,7 +131,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: red;
+	color: #a40000;
 }
 
 section {
