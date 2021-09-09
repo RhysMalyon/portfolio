@@ -56,3 +56,9 @@
     margin-bottom: 0;
   }
 }
+
+@media (max-width: 600px) {
+  .project-content {
+    padding: 0 2rem;
+  }
+}
