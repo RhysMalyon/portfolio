@@ -8,7 +8,15 @@ window.addEventListener('scroll', () => {
 });
 
 const navigation = document.querySelector('nav');
+const toggle = document.querySelector('.toggle');
+const links = document.getElementById('nav-list').getElementsByTagName('a');
+
 document.querySelector('.toggle').onclick = (event) => {
   event.currentTarget.classList.toggle('active');
   navigation.classList.toggle('active');
 };
+
+links.forEach((element) => element.addEventListener('click', () => {
+  navigation.classList.toggle('active');
+  toggle.classList.remove('active');
+}));
